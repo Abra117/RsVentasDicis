@@ -1,0 +1,255 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+body{
+  
+  position: relative;
+  background: #693f1c;
+  height : 100vh;
+  margin: 5%;
+  letter-spacing: 0.03em;
+
+}
+
+  .navbox{
+    background: white;
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    position: absolute;
+    top:2%;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .header{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: center;
+    pointer-events: none;
+}
+
+.NameCompany h2{
+  font-size: 27px;
+  font-weight:300;
+}
+.ImgCompany Img{
+ height: 150px;
+}
+
+.buscador{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  background: #faad17;
+  width: 60%;
+}
+.Input{
+  width: 100%;
+}
+.Input input{
+  height: 30px;
+  width: 80%;
+  color: white;
+  background-color: #faad17;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+
+.Input input::placeholder{
+color: aliceblue;
+}
+
+.Imglupa img{
+  height: 30px;
+
+}
+ 
+.LoggIN{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.ImgLogg Img{
+  height: 100px;
+}
+
+.Plogg{
+  font-size: 15px;
+  font-weight: 300;
+}
+a{
+  text-align: center;
+  text-decoration: none;
+}
+.contenedor{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 30%; 
+} 
+
+  .img{
+    width: 0px;
+     display: block;
+     /*padding: 9%;*/
+     padding: 0%;
+     justify-items: center;
+     
+  }
+.Imgabeja{
+   height: 0px;
+   width: 0px;   
+   
+}
+
+.cards{
+  width:100vw;
+  max-width: 1200px;
+  height: 400px;;
+  display: flex;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin:auto;
+  position: relative;
+}
+.cards .card{
+   width: 330px;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+   overflow: hidden;
+   margin: 20px;
+   text-align: center;
+   transition: all 0 0.25s;
+   background: white;
+}
+
+.cards .card:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);   
+}
+
+.cards .card img{
+  width: 330px;
+  height: 220px;
+}
+
+.cards .card h4{
+  font-weight: 600;
+}
+.cards .card p{
+  padding: 0 1rem;
+  font-size: 16px;
+}
+
+.cards .card button{
+  width: 140px;
+  font-weight: 500;
+  text-decoration: none;
+  color:white;
+  float: right;
+  bottom: 0;
+  border: 2px solid yellow;
+  background: black;
+  border-radius: 5px;
+  cursor:pointer;
+
+}
+
+.cards .card .precio{
+  font-weight: 600;
+  float: left;
+}
+ .cardinfo{
+  width: 500px;
+  height: 500px;
+  background: #693f1c;
+  position:  absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 10px 50px;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 13px 2px rgba(214, 179, 22, 0.3);
+  box-shadow: 0px 0px 13px 2px rgba(229, 210, 3, 0.3);
+  display: none;
+}
+
+.cardinfo .cardTi{
+  background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-modern-minimalist-honey-hive-bee-background-material-image_125810.jpg);
+  background-size: contain;
+  height: 150px;
+  width: auto;
+  border-radius: 35px;
+  position: relative;
+}
+
+.cardinfo .cardTi h3{
+  transform: translateY(20px) translateX(-7px);
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.cardinfo .cardTi p{
+  font-size: 10px;
+  text-align: center;
+  color: brown;
+  transform: translateY(21px) translateX(-5px);
+}
+
+.cardinfo .cardTi img{
+position: absolute;
+transform: translateX(100%) translateY(-37%);
+}
+
+
+.cardinfo .cardcon{
+ height: 300px;
+ width: 70vw;
+ background: url(../img/img7.png) no-repeat;
+ background-size: contain; 
+ background-position :0px  19px; 
+ background-attachment: local;
+ padding: 10px;
+}
+
+
+.infoven {
+display: flex;
+flex-flow: column nowrap;
+align-items: flex-start;
+text-align: center;
+font-weight: 600;
+color: white;
+}
+.close{
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  background-color: gray;
+  color: white;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+  padding: 2px;
+
+}
+
+
+
