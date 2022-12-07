@@ -110,10 +110,10 @@ a{
    
 }
 
-.cards{
+/* .card{
   width:100vw;
   max-width: 1200px;
-  height: 400px;;
+  height: 400px;
   display: flex;
   letter-spacing: 0.03em;
   line-height: 1.6;
@@ -249,7 +249,30 @@ color: white;
   cursor:pointer;
   padding: 2px;
 
+} */
+
+
+.cardbox{
+  position: relative;
+  background: white;
+  display: flex;
+  flex-flow: wrap; 
+  justify-content:center;
+  border: solid;
+  width:50vw;
+  max-width: 450px;
+  height: 250px;
+  border-radius: 6px;
 }
 
-
-
+.adorno{
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.adorno img{
+  position: absolute;
+  height: 100px;
+}
