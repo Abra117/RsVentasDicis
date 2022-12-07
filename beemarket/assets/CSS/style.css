@@ -300,3 +300,7 @@ tr:nth-child(even){
   background-color: #693f1c;
   color: white;
 }
+tr:hover th{
+  background-color: #faad17;
+  color: white;
+}
