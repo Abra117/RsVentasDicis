@@ -39,21 +39,19 @@ body {
     height: 150px;
 }
 
-.buscador {
+.buscar {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     background: #faad17;
-    width: 60%;
-}
-
-.Input {
     width: 100%;
+    border: 1px solid silver;
+    border-radius: 30px;
 }
 
-.Input input {
+input {
     height: 30px;
-    width: 80%;
+    width: 150%;
     color: white;
     background-color: #faad17;
     border: none;
@@ -61,13 +59,10 @@ body {
     outline: none;
 }
 
-.Input input::placeholder {
+ input::placeholder {
     color: aliceblue;
 }
 
-.Imglupa img {
-    height: 30px;
-}
 
 .LoggIN {
     display: flex;
@@ -291,7 +286,7 @@ th {
     padding: 10px;
 }
 
-thead {
+thead{
     background-color: #faad17;
     border-bottom: solid 5px #3f4404;
     color: white;
@@ -307,7 +302,7 @@ tr:hover th {
     color: white;
 }
 
-.buscar {
+/* .buscar {
     position: absolute;
     padding: 5px;
 }
@@ -321,4 +316,4 @@ tr:hover th {
     outline: none;
     border: 1px solid silver;
     border-radius: 30px;
-}
+} */
