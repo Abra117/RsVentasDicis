@@ -64,7 +64,7 @@
             <img src="./img/img5.png" class="Imgabeja">
           </div>
 
-           <div class="cards"> 
+           <!-- <div class="cards"> 
            <div class="card">
           <img src="" >
           <h4></h4>
@@ -72,9 +72,9 @@
           <p class="precio"></p>
           
           
-          </div>
+          </div> -->
 
-          <div class="card">
+          <!-- <div class="card">
             <img src="https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2020/09/09/5f58b1bb6d322.r_d.627-418-0.jpeg" >
             <h4>Pasta </h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos et est, recusandae ab suscipit inventore.</p>
@@ -104,39 +104,61 @@
               </div>
               <span class="close">X</span>
             </div>
-          </div>
+          </div> -->
     </div>
-    <script src="assets/js/app.js"></script>
 <!-- --------------------- -->            
 <br><br><br><br><br><br><br><br><br><br><br><br>
-                        <div class="col-md-8">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Nombre</th>
-                                        <th>Descripcion</th>
-                                        <th>Precio</th>
-                                        <th>Mas informacion</th>
-                                    </tr>
-                                </thead>
+                <div class="cardbox">
+                <div class="adorno">
+                    <h3 style="color:#d79011">BEEN<span>DEDOR</span></h3>
+                    <p> FEELS PURE & AUTHENTIC</p>
+                    <img src="./img/img6.png">
+                </div>
+                <div class="buscar">
+                    <input type="text" placeholder="Buscar" required>
+                    <div class="btn">
+                        <i class="icon-buscar"></i>
+                    </div>
+                </div>
+                <form method="post">
+                    <input type="text" placeholder="Nombre..." name="xnombre">
+                    <select name="xdescripcion">
+                  <option value="">Descripcion</option>
+                </select>
+                </form>
+                <table>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Descripcion</td>
+                        <td>Precio</td>
+                        <td>Mas informacion</td>
+                    </tr>
 
-                                <tbody class="mt-7">
-                                        <?php
-                                            while($row=mysqli_fetch_array($query)){
+                    <tbody class="mt-7">
+                        <?php
+                    
+                    while($row=mysqli_fetch_array($query)){
                                         ?>
-                                            <tr>
-                                                <th><?php  echo $row['pr_nombre']?></th>
-                                                <th><?php  echo $row['pr_des']?></th>
-                                                <th><?php  echo $row['pr_precio']?></th>                                                                               
-                                                <th><a href="productos.php?id=<?php echo $row['pr_id']?>"><button>Mas informacion</button></a></th>                                      
-                                            </tr>
-                                        <?php 
+                            <tr>
+                                <td>
+                                    <?php  echo $row['pr_nombre']?>
+                                </td>
+                                <td>
+                                    <?php  echo $row['pr_des']?>
+                                </td>
+                                <td>
+                                    <?php  echo $row['pr_precio']?>
+                                </td>
+                                <td><a href="productos.php?id=<?php echo $row['pr_id']?>"><button>Mas informacion</button></a></th>
+                            </tr>
+                            <?php 
                                             }
                                         ?>
-                                </tbody>
-                            </table>
-                        </div>
+                    </tbody>
+                </table>
+            </div>
             <br><br><br>
-    </body>
-<!-- --------------------- -->
+        </body>
+        <!-- --------------------- -->
+        <script src="assets/js/app.js"></script>
 </html>
