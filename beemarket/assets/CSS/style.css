@@ -1,114 +1,115 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
-   
 }
 
-body{
-  
-  position: relative;
-  background: #693f1c;
-  height : 100vh;
-  margin: 5%;
-  letter-spacing: 0.03em;
-
+body {
+    position: relative;
+    background: #693f1c;
+    height: 100vh;
+    margin: 5%;
+    letter-spacing: 0.03em;
 }
 
-  .navbox{
+.navbox {
     background: white;
     display: flex;
     width: 100%;
     height: auto;
     border-radius: 15px;
     position: absolute;
-    top:2%;
-    justify-content:space-between;
+    top: 2%;
+    justify-content: space-between;
     align-items: center;
-  }
+}
 
-  .header{
+.header {
     display: flex;
     flex-flow: row-reverse wrap;
     align-items: center;
     pointer-events: none;
 }
 
-.NameCompany h2{
-  font-size: 27px;
-  font-weight:300;
-}
-.ImgCompany Img{
- height: 150px;
+.NameCompany h2 {
+    font-size: 27px;
+    font-weight: 300;
 }
 
-.buscador{
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  background: #faad17;
-  width: 60%;
-}
-.Input{
-  width: 100%;
-}
-.Input input{
-  height: 30px;
-  width: 80%;
-  color: white;
-  background-color: #faad17;
-  border: none;
-  font-size: 20px;
-  outline: none;
+.ImgCompany Img {
+    height: 150px;
 }
 
-.Input input::placeholder{
-color: aliceblue;
+.buscador {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background: #faad17;
+    width: 60%;
 }
 
-.Imglupa img{
-  height: 30px;
-
-}
- 
-.LoggIN{
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+.Input {
+    width: 100%;
 }
 
-.ImgLogg Img{
-  height: 100px;
+.Input input {
+    height: 30px;
+    width: 80%;
+    color: white;
+    background-color: #faad17;
+    border: none;
+    font-size: 20px;
+    outline: none;
 }
 
-.Plogg{
-  font-size: 15px;
-  font-weight: 300;
+.Input input::placeholder {
+    color: aliceblue;
 }
-a{
-  text-align: center;
-  text-decoration: none;
+
+.Imglupa img {
+    height: 30px;
 }
-.contenedor{
+
+.LoggIN {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.ImgLogg Img {
+    height: 100px;
+}
+
+.Plogg {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.contenedor {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    top: 30%; 
-} 
-
-  .img{
-    width: 0px;
-     display: block;
-     /*padding: 9%;*/
-     padding: 0%;
-     justify-items: center;
-     
-  }
-.Imgabeja{
-   height: 0px;
-   width: 0px;   
-   
+    top: 30%;
 }
+
+.img {
+    width: 0px;
+    display: block;
+    /*padding: 9%;*/
+    padding: 0%;
+    justify-items: center;
+}
+
+.Imgabeja {
+    height: 0px;
+    width: 0px;
+}
+
 
 /* .card{
   width:100vw;
@@ -251,56 +252,73 @@ color: white;
 
 } */
 
-
-.cardbox{
-  position: relative;
-  background: white;
-  display: flex;
-  flex-flow: wrap;
-  justify-content:center;
-  border: solid;
-  width:60vw;
-  max-width: 470px;
-  height: auto;
-  border-radius: 6px;
-  left: 35%;
+.cardbox {
+    position: relative;
+    background: white;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    border: solid;
+    width: 60vw;
+    max-width: 470px;
+    height: auto;
+    border-radius: 6px;
+    left: 35%;
 }
 
-.adorno{
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
+.adorno {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
-.adorno img{
-  position: absolute;
-  height: 100px;
+
+.adorno img {
+    position: absolute;
+    height: 100px;
 }
 
 .table {
-   background-color: white;
-   text-align: left;
-   width: 100%;
-   border-collapse: collapse;
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
 }
 
-th{
-  border: solid 1px black;
-  padding: 10px;
+th {
+    border: solid 1px black;
+    padding: 10px;
 }
 
-thead{
-  background-color: #faad17;
-  border-bottom: solid 5px #3f4404;
-  color: white;
+thead {
+    background-color: #faad17;
+    border-bottom: solid 5px #3f4404;
+    color: white;
 }
 
-tr:nth-child(even){
-  background-color: #693f1c;
-  color: white;
+tr:nth-child(even) {
+    background-color: #693f1c;
+    color: white;
 }
-tr:hover th{
-  background-color: #faad17;
-  color: white;
+
+tr:hover th {
+    background-color: #faad17;
+    color: white;
+}
+
+.buscar {
+    position: absolute;
+    padding: 5px;
+}
+
+.buscar {
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
 }
