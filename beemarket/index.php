@@ -44,7 +44,6 @@
                     <div class="btn">
                         <i class="icon-buscar"></i>
                     </div>
-                </div>
                 <form method="post">
                     <input type="text" placeholder="Nombre..." name="xnombre">
                     <select name="xdescripcion">

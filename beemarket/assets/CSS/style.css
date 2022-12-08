@@ -251,14 +251,14 @@ color: white;
     position: relative;
     background: white;
     display: flex;
-    flex-flow: wrap;
-    justify-content: center;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-content: center;
     border: solid;
-    width: 60vw;
-    max-width: 470px;
+    width: 40vw;
     height: auto;
     border-radius: 6px;
-    left: 35%;
+    left: 25%;
 }
 
 .adorno {
@@ -271,7 +271,7 @@ color: white;
 
 .adorno img {
     position: absolute;
-    height: 100px;
+    height: 150px;
 }
 
 .table {
@@ -281,11 +281,10 @@ color: white;
     border-collapse: collapse;
 }
 
-th {
+th{
     border: solid 1px black;
     padding: 10px;
 }
-
 thead{
     background-color: #faad17;
     border-bottom: solid 5px #3f4404;
